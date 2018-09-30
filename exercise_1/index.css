@@ -1,0 +1,44 @@
+body {
+  background: #eee;
+}
+
+.container {
+  display: flex;
+  padding-top: 100px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.bar-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.box {
+  width: 500px;
+  height: 100px;
+  border: solid black 1px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 75px;
+  display: block;
+  margin: auto;
+}
+
+.bar-red {
+  background: red;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.bar-blue {
+  background: blue;
+  margin-top: 10px;
+  height: 30px;
+}

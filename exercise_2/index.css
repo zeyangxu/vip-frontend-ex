@@ -1,0 +1,43 @@
+.displayBox {
+  display: flex;
+}
+
+.itemCard {
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background: #eceff1;
+  margin: 0 1rem 0.5rem 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.deleteCross {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 1rem;
+  opacity: 0.3;
+}
+
+.deleteCross .crossLine {
+  position: absolute;
+  background: #333;
+  width: 20px;
+  height: 2px;
+  margin-bottom: 2px;
+  top: 27px;
+}
+
+.deleteCross:hover {
+  opacity: 1;
+}
+
+.crossLine:nth-child(1) {
+  transform: rotate(45deg);
+}
+.crossLine:nth-child(2) {
+  transform: rotate(-45deg);
+}
