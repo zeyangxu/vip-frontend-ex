@@ -70,19 +70,6 @@
       </div>
     </div>
   </div>
-  <script type="text/javascript">
-    $('.deleteCross').on('click', function () {
-      console.log('deleteCross!');
-      var target = $(this)
-        .prev()
-        .text();
-      console.log(target);
-      $(this)
-        .parent()
-        .remove();
-      card_list.splice(card_list.indexOf(target), 1);
-    });
-  </script>
 </body>
 
 </html>
