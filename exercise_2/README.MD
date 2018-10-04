@@ -59,3 +59,6 @@ w3 school (How AJAX works)
 - line 76 : lastly, he deletes the the following target in the list 
     - splice() method adds/removes items to/from an array
     - ( https://stackoverflow.com/questions/12724363/remove-array-value-by-index-in-jquery )
+
+- Some Poeple wonder ONLY Javascript?? Then how does Zeb make input and other elements beautiful?
+ANSWER : CSS !
